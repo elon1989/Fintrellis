@@ -5,13 +5,13 @@ import NavBar from "./Components/NavBar";
 
 export default function App() {
   return (
-    <div>
+    <>
       <NavBar />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/home" element={<Home />} />
         <Route exact path="/blog" element={<BlogPosts />} />
       </Routes>
-    </div>
+    </>
   );
 }

@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
-    background: #3C5B6F;
+    background: #153448;
     font-family: Open-Sans, Helvetica, Sans-Serif;
     box-sizing: border-box;
     color: rgb(223, 208, 184)
