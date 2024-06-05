@@ -7,7 +7,13 @@ const Title = styled.h1`
 `;
 
 function Home() {
-  return <Container><Title>Home</Title></Container>;
+  return <Container><Title>Home</Title>
+  <section>
+      <h2>About Our Blog</h2>
+      <br></br>
+      <p>This blog is a place where we share our thoughts, ideas, and experiences. We hope you find our posts informative and inspiring. Happy reading!</p>
+    </section>
+  </Container>;
 }
 
 export default Home;
