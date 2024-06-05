@@ -82,7 +82,7 @@ function CreateBlog() {
                 required
               />
             </div>
-            <StyledButton type="submit">Send message</StyledButton>
+            <StyledButton type="submit">Create BlogPost</StyledButton>
           </StyledForm>
           </Container>
     );
