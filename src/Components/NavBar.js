@@ -11,6 +11,9 @@ export default function Navbar() {
         <li>
           <NavItem to="/blog">blog</NavItem>
         </li>
+        <li>
+          <NavItem to="/createBlog">new blog</NavItem>
+        </li>
       </NavItems>
     </NavWrapper>
   );
@@ -31,7 +34,7 @@ const NavItems = styled.ul`
   align-items: center;
 `;
 
-const NavItem = styled(Link)`
+export const NavItem = styled(Link)`
 text-decoration: none;
 color:rgb(223, 208, 184);
 font-size: 1.2rem;

@@ -3,7 +3,6 @@ import styled from "styled-components";
 
 const StyledContainer = styled.section`
     width: 100%;
-    height: 100vh;
     padding-top: 1rem;
 `;
 const InnerContainer = styled.div`
@@ -12,11 +11,12 @@ const InnerContainer = styled.div`
     background-color: #3C5B6F;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
+    overflow: auto;
     align-items: center;
     flex-direction: column;
     border: 1px solid black;
     border-radius: 10px;
+    padding:1rem;
 `;
 
 function Container({children}) {
